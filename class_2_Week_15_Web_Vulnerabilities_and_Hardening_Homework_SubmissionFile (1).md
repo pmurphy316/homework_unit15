@@ -16,25 +16,30 @@ Use the graphic below to answer the following questions:
 
 1. Which part of the URL can be manipulated by an attacker to exploit a vulnerable back-end database system? 
 
-Answer:
+Answer: Parameters
 
 2. Which part of the URL can be manipulated by an attacker to cause a vulnerable web server to dump the `/etc/passwd` file? Also, name the attack used to exploit this vulnerability.
 
-Answer:
+Answer: Path
+
+
    
 3. Name three threat agents that can pose a risk to your organization.
 
 Answer:
 
+Individuals, organizations or governments
+
 4. What kinds of sources can act as an attack vector for injection attacks?
 
-Answer:
+Answer: -SQL databases and html code
 
 5. Injection attacks exploit which part of the CIA triad?
 
-Answer:
+Answer: Confidentiality
 
 6. Which two mitigation methods can be used to thwart injection attacks?
+Input sanitation
 
 ____
 
@@ -54,23 +59,23 @@ Use the graphic below to answer the following questions:
    
 1. What stage is the most inner part of the web architecture where data such as, customer names, addresses, account numbers, and credit card info, is stored?
 
-Answer:
+Answer: Stage 5 Database
 
 2. Which stage includes online forms, word processors, shopping carts, video and photo editing, spreadsheets, file scanning, file conversion, and email programs such as Gmail, Yahoo and AOL.
 
-Answer:
+Answer: Stage 4 Web Application
 
 3. What stage is the component that stores files (e.g. HTML documents, images, CSS stylesheets, and JavaScript files) that's connected to the Internet and provides support for physical data interactions between other devices connected to the web?
 
-Answer:
+Answer:Web Server
 
 4. What stage is where the end user interacts with the World Wide Web through the use of a web browser?
 
-Answer:
+Answer:Client
 
 5. Which stage is designed to prevent unauthorized access to and from protected web server resources?
 
-Answer:
+Answer:Firewall
 
 ----
 
@@ -81,29 +86,31 @@ In today’s globally connected cyber community, network and OS level attacks ar
 
 1. What is the process called that cleans and scrubs user input in order to prevent it from exploiting security holes by proactively modifying user input.
 
-Answer:
+Answer:Input sanitation
 
 2. Name the process that tests user and application-supplied input. The process is designed to prevent malformed data from entering a data information system by verifying user input meets a specific set of criteria (i.e. a string that does not contain standalone single quotation marks).
 
-Answer:
+Answer:Input validation
 
 3. **Secure SDLC** is the process of ensuring security is built into web applications throughout the entire software development life cycle. Name three reasons why organization might fail at producing secure web applications.
 
-Answer:
+Answer:Employee Incompetence, Cost, Failure in Security systems being relied on
 
 4. How might an attacker exploit the `robots.txt` file on a web server?
 
 Answer:
 
+robots.txt manages access controls about which pages/files are available to search engine crawlers. This can be exploited to find the content management system and the structure of the directories
+
 5. What steps can an organization take to obscure or obfuscate their contact information on domain registry web sites?
 
-Answer:
+Answer: Proxy service or private domain registration
    
 6. True or False: As a network defender, `Client-Side` validation is preferred over `Server-Side` validation because it's easier to defend against attacks.
 
    - Explain why you chose the answer that you did.
 
-Answer:
+Answer: False. Client-side validation can be manipulated and bypassed more easily.
 
 ____
 
@@ -115,11 +122,11 @@ WAFs are typically present on web sites that use strict transport security mecha
 
 1. Which layer of the OSI model do WAFs operate at?
 
-Answer:
+Answer: Layer 7: Application
 
 2. A WAF helps protect web applications by filtering and monitoring what?
 
-Answer:
+Answer: malicious HTTP/S traffic and any unauthorized data from leaving the app
 
 3. True or False: A WAF based on the negative security model (Blacklisting) protects against known attacks, and a WAF based on the positive security model (Whitelisting) allows pre-approved traffic to pass.
 
@@ -136,29 +143,29 @@ Security enhancements designed to require users to present two or more pieces of
 
 1. Define all four factors of multifactor authentication and give examples of each:
 
-   - Factor 1:
+   - Factor 1:PIN and Password
 
    
-   - Factor 2:
+   - Factor 2:Knowledge Factors
    
    
-   - Factor 3:
+   - Factor 3:Possession Factors
 
    
-   - Factor 4:
+   - Factor 4:Inherence Factors
 
    
 2. True or False: A password and pin is an example of 2-factor authentication.
 
-Answer:
+Answer:True
    
 3. True or False: A password and `google authenticator app` is an example of 2-factor authentication.
 
-Answer:
+Answer:True 
    
 4. What is a constrained user interface? 
 
-Answer:
+Answer: An authentication method that uses only a single type of authentication credentials instead of a multi factor authentication.
 
 ----
 ____
