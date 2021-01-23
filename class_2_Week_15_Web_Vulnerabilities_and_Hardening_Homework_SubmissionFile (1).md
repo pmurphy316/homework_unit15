@@ -12,7 +12,7 @@ Use the graphic below to answer the following questions:
 | Protocol         | Host Name                 | Path                   | Parameters               |
 | ---------------- | :-----------------------: | ---------------------- | ------------------------ |
 | **http://**      | **`www.buyitnow.tv`**     | **/add.asp**           | **?item=price#1999**     |
-
+![TODO: Update the path with the name of your diagram](Pictures/pic1.png)
 
 1. Which part of the URL can be manipulated by an attacker to exploit a vulnerable back-end database system? 
 
