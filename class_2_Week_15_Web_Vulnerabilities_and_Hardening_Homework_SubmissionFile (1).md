@@ -227,6 +227,7 @@ Next, steal all of the credit card numbers from the database.
 - **Hint #2**: Break your way into the conversation and inject your own ideas.
 
 Please include a screenshot here of all the credit card numbers from the database. 
+![TODO: Update the path with the name of your diagram](Pictures/pic2.png)
 
 After completing the second challenge, you will be provided with an option to continue to the next challenge.
 
@@ -305,6 +306,6 @@ Your final act is to deface the website using command injection. Follow the walk
     * **and** echo `You've been hacked by...` followed by your name, to the `webgoat_challenge_guest.jsp` file.
     
 Please include a screenshot of the defaced website. 
-
+![TODO: Update the path with the name of your diagram](Pictures/pic3.png)
 ---
 © 2020 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.  
