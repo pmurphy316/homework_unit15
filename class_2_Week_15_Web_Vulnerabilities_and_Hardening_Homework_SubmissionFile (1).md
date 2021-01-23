@@ -39,7 +39,10 @@ Answer: -SQL databases and html code
 Answer: Confidentiality
 
 6. Which two mitigation methods can be used to thwart injection attacks?
-Input sanitation
+
+Never trust input.
+
+ Implement filtering and monitoring tools.
 
 ____
 
