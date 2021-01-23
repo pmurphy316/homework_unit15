@@ -133,7 +133,7 @@ Answer: malicious HTTP/S traffic and any unauthorized data from leaving the app
 
 3. True or False: A WAF based on the negative security model (Blacklisting) protects against known attacks, and a WAF based on the positive security model (Whitelisting) allows pre-approved traffic to pass.
 
-Answer:
+Answer: True
 ____
 
 #### Authentication and Access Controls
@@ -146,16 +146,16 @@ Security enhancements designed to require users to present two or more pieces of
 
 1. Define all four factors of multifactor authentication and give examples of each:
 
-   - Factor 1:PIN and Password
+   - Factor 1:PIN and Password   Pin example, Four digit code, password example, favourite pet
 
    
-   - Factor 2:Knowledge Factors
+   - Factor 2:Knowledge Factors  Knowledge only known to the user, ie. mother's madien name
    
    
-   - Factor 3:Possession Factors
+   - Factor 3:Possession Factors example a device key that produces codes that can be put into the system in order to access. 
 
    
-   - Factor 4:Inherence Factors
+   - Factor 4:Inherence Factors The inherence factor, in a security context, is a category of user authentication credentials consisting of elements that are integral to the individual in question, in the form of biometric data, example fingerprint 
 
    
 2. True or False: A password and pin is an example of 2-factor authentication.
