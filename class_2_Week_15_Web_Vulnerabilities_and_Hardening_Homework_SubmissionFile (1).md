@@ -12,7 +12,7 @@ Use the graphic below to answer the following questions:
 | Protocol         | Host Name                 | Path                   | Parameters               |
 | ---------------- | :-----------------------: | ---------------------- | ------------------------ |
 | **http://**      | **`www.buyitnow.tv`**     | **/add.asp**           | **?item=price#1999**     |
-![TODO: Update the path with the name of your diagram](Pictures/pic1.png)
+
 
 1. Which part of the URL can be manipulated by an attacker to exploit a vulnerable back-end database system? 
 
@@ -212,7 +212,9 @@ Your first mission is to break the authentication scheme. There are a number of 
 
 - **Hint #3**: You can appened `source?source=true` to the URL to read the source code. 
 
-Please include a screenshot here of the hidden JavaScript: (pic1.png)
+Please include a screenshot here of the hidden JavaScript: 
+
+![TODO: Update the path with the name of your diagram](Pictures/pic1.png)
 
 After completing the first challenge, you will be provided with an option to continue to the next challenge.
 
